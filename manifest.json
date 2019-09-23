@@ -1,11 +1,11 @@
 {
-  "name": "Add row to Google Sheets",
+  "name": "Connectruck Extension",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Allows you to add a row to a Google Sheet from a browser popup",
-  "homepage_url": "https://github.com/gsingh93/add-row-to-google-sheets-extension",
+  "description": "Allows you to add an available truck to the Truck Capacity Database",
+  "homepage_url": "https://github.com/leonard-dima/Connectruck-Extension",
   "browser_action": {
-    "default_title": "Add row to Google Sheets",
+    "default_title": "Add available truck to Truck Capacity Database",
     "default_popup": "popup.html"
   },
   "content_security_policy": "script-src 'self' https://apis.google.com; object-src 'self';",
